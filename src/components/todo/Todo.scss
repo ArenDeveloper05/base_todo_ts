@@ -1,0 +1,20 @@
+.todo {
+  border: solid;
+  padding: 24px;
+  &-head {
+    border: solid;
+    padding: 24px;
+    display: flex;
+    // > input {
+    //   flex-grow: 1;
+    // }
+  }
+  &-body {
+    border: solid;
+    padding: 24px;
+    &-item {
+      border: solid;
+      padding: 24px;
+    }
+  }
+}
