@@ -32,6 +32,7 @@ const TodoBody: React.FC<ITodoBodyProps> = ({ todos, setTodos }) => {
                       }
                       return item;
                     });
+
                     return [...mappedPrev];
                   });
                 }}
